@@ -34,3 +34,16 @@ churn-prediction-engine/
 ├── app.py                      # Interactive Streamlit frontend web app
 ├── model_pipeline.pkl          # Serialized production-ready Scikit-Learn pipeline
 └── requirements.txt            # Project Python dependencies
+📊 Model Performance & Tech Stack
+Core Language: Python
+
+Machine Learning: Scikit-Learn, Pandas, NumPy, Joblib
+
+Frontend Dashboard: Streamlit
+
+Algorithm: Random Forest Classifier (with class balancing and probability calibration)
+
+💡 Usage Preview
+Adjust customer sliders and account attributes (such as tenure, monthly charges, contract type, and payment methods) in the live dashboard to instantly predict whether a subscriber falls into a high-risk churn category and trigger automated retention offers.
+
+Built with ❤️ by Varsha
